@@ -5,9 +5,18 @@ document.querySelector("#hamburger-menu").onclick = () => {
   navbarNav.classList.toggle("active");
 };
 
+// toggle class active for shoping cart
+const shoppingCart = document.querySelector(".shopping-cart");
+
+document.querySelector("#shopping-cart-button").onclick = (e) => {
+  shoppingCart.classList.toggle("active");
+  e.preventDefault();
+};
+
 //klik luar sidebar hilang nav
 const hm = document.querySelector("#hamburger-menu");
 const sb = document.querySelector("#search-button");
+const scb = document.querySelector("#shopping-cart-button");
 
 document.addEventListener("click", function (e) {
   if (!hm.contains(e.target) && !navbarNav.contains(e.target)) {
@@ -15,6 +24,9 @@ document.addEventListener("click", function (e) {
   }
   if (!sb.contains(e.target) && !searchForm.contains(e.target)) {
     searchForm.classList.remove("active");
+  }
+  if (!scb.contains(e.target) && !shoppingCart.contains(e.target)) {
+    shoppingCart.classList.remove("active");
   }
 });
 
