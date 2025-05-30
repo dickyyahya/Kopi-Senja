@@ -174,12 +174,22 @@ body {
   min-height: 100vh;
   display: flex;
   align-items: center;
-  background-image: url("../img/kopi-bg-2.jpg");
+  background-image: url("../img/kopi.png");
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center;
   position: relative;
   mask-image: linear-gradient(rgba(0, 0, 0, 1) 85%, rgba(0, 0, 0, 0));
+  background-position: center bottom -450px; /* Ini akan geser gambar ke atas */
+}
+
+.hero .mask-container {
+  position: absolute;
+  inset: 0;
+  mask-image: url("../img/kopi.svg");
+  mask-repeat: no-repeat;
+  mask-size: cover;
+  mask-position: center bottom -450px;
 }
 
 /* .hero::after {
@@ -202,7 +212,7 @@ body {
   width: 100%;
   text-align: center;
   position: fixed;
-  top: 150px;
+  top: 130px;
 }
 
 .hero .content h1 {
@@ -268,7 +278,7 @@ body {
 
 .about .row .about-img img {
   width: 100%;
-  mask-image: url("../img/products/biji-kopi.svg");
+  mask-image: url("../img/products/kupu2.svg");
   mask-size: 50%;
   mask-repeat: no-repeat;
   mask-position: center;
