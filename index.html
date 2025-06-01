@@ -208,7 +208,7 @@
                   <use href="img/feather-sprite.svg#shopping-cart" />
                 </svg>
               </a>
-              <a href="#">
+              <a href="#" @click.prevent="showProductDetail(item)">
                 <svg
                   width="24"
                   height="24"
@@ -351,35 +351,53 @@
     </footer>
     <!-- footer end -->
 
-    <!-- modal box item detail start -->
-    <div class="modal" id="item-detail-modal">
+    <!-- Modal Box Item Detail -->
+    <div class="modal" id="item-detail-modal" x-data>
       <div class="modal-container">
         <a href="#" class="close-icon"><i data-feather="x"></i></a>
         <div class="modal-content">
-          <img src="img/products/kopi.jpg" alt="produk 1" />
+          <!-- Gambar produk -->
+          <img
+            :src="`img/products/${$store.modal.product.img}`"
+            :alt="$store.modal.product.name"
+          />
+
+          <!-- Nama produk -->
+          <h3 x-text="$store.modal.product.name"></h3>
+          <!-- Deskripsi produk -->
+          <p class="product-desc" x-text="$store.modal.product.desc"></p>
+
           <div class="product-content">
-            <h3>Produk 1</h3>
-            <p>
-              Lorem ipsum, dolor sit amet consectetur adipisicing elit. Ea
-              optio, vel totam a sapiente rerum expedita quibusdam et maxime.
-              Eveniet at pariatur velit odit commodi.
-            </p>
-            <div class="product-starts">
+            <!-- Bintang rating -->
+            <div class="product-stars">
               <i data-feather="star"></i>
               <i data-feather="star"></i>
               <i data-feather="star"></i>
               <i data-feather="star"></i>
               <i data-feather="star"></i>
             </div>
-            <div class="product-price">IDR 20K <span>IDR50K</span></div>
-            <a href="#"
-              ><i data-feather="shopping-cart"></i><span>add co cart</span></a
+
+            <!-- Harga produk -->
+            <div
+              class="product-price"
+              x-text="rupiah($store.modal.product.price)"
+            ></div>
+
+            <!-- Tombol tambah ke keranjang -->
+            <a
+              href="#"
+              @click.prevent="$store.cart.add($store.modal.product)"
+              class="add-to-cart-btn"
             >
+              <i data-feather="shopping-cart"></i>
+              <span>Tambahkan ke keranjang</span>
+            </a>
           </div>
         </div>
       </div>
     </div>
-    <!-- modal box item detail start -->
+
+    <!-- modal box item detail end -->
 
     <!-- icon -->
     <script>
