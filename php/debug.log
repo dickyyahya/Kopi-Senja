@@ -1,0 +1,210 @@
+POST: Array
+(
+    [items] => [{"id":1,"name":"kopi ireng","img":"kopi1.jpg","price":10000,"desc":"Kopi hitam pekat dengan rasa kuat dan pahit yang khas.","quantity":3,"total":30000}]
+    [total] => 30000
+    [name] => Dicky Yahya
+    [email] => bmotor169@gmail.com
+    [phone] => 0895379692638
+)
+
+Params: Array
+(
+    [transaction_details] => Array
+        (
+            [order_id] => 683db2f2c8fdb
+            [gross_amount] => 30000
+        )
+
+    [item_details] => Array
+        (
+            [0] => Array
+                (
+                    [id] => 1
+                    [name] => kopi ireng
+                    [img] => kopi1.jpg
+                    [price] => 10000
+                    [desc] => Kopi hitam pekat dengan rasa kuat dan pahit yang khas.
+                    [quantity] => 3
+                    [total] => 30000
+                )
+
+        )
+
+    [customer_details] => Array
+        (
+            [first_name] => Dicky Yahya
+            [email] => bmotor169@gmail.com
+            [phone] => 0895379692638
+        )
+
+)
+
+POST: Array
+(
+    [items] => [{"id":1,"name":"kopi ireng","img":"kopi1.jpg","price":10000,"desc":"Kopi hitam pekat dengan rasa kuat dan pahit yang khas.","quantity":3,"total":30000}]
+    [total] => 30000
+    [name] => Dicky Yahya
+    [email] => bmotor169@gmail.com
+    [phone] => 0895379692638
+)
+
+Params: Array
+(
+    [transaction_details] => Array
+        (
+            [order_id] => 683db2f363289
+            [gross_amount] => 30000
+        )
+
+    [item_details] => Array
+        (
+            [0] => Array
+                (
+                    [id] => 1
+                    [name] => kopi ireng
+                    [img] => kopi1.jpg
+                    [price] => 10000
+                    [desc] => Kopi hitam pekat dengan rasa kuat dan pahit yang khas.
+                    [quantity] => 3
+                    [total] => 30000
+                )
+
+        )
+
+    [customer_details] => Array
+        (
+            [first_name] => Dicky Yahya
+            [email] => bmotor169@gmail.com
+            [phone] => 0895379692638
+        )
+
+)
+
+POST: Array
+(
+    [items] => [{"id":1,"name":"kopi ireng","img":"kopi1.jpg","price":10000,"desc":"Kopi hitam pekat dengan rasa kuat dan pahit yang khas.","quantity":3,"total":30000}]
+    [total] => 30000
+    [name] => Dicky Yahya
+    [email] => bmotor169@gmail.com
+    [phone] => 0895379692638
+)
+
+Params: Array
+(
+    [transaction_details] => Array
+        (
+            [order_id] => 683db2f3945db
+            [gross_amount] => 30000
+        )
+
+    [item_details] => Array
+        (
+            [0] => Array
+                (
+                    [id] => 1
+                    [name] => kopi ireng
+                    [img] => kopi1.jpg
+                    [price] => 10000
+                    [desc] => Kopi hitam pekat dengan rasa kuat dan pahit yang khas.
+                    [quantity] => 3
+                    [total] => 30000
+                )
+
+        )
+
+    [customer_details] => Array
+        (
+            [first_name] => Dicky Yahya
+            [email] => bmotor169@gmail.com
+            [phone] => 0895379692638
+        )
+
+)
+
+POST: Array
+(
+    [items] => [{"id":1,"name":"kopi ireng","img":"kopi1.jpg","price":10000,"desc":"Kopi hitam pekat dengan rasa kuat dan pahit yang khas.","quantity":3,"total":30000}]
+    [total] => 30000
+    [name] => Dicky Yahya
+    [email] => bmotor169@gmail.com
+    [phone] => 0895379692638
+)
+
+Params: Array
+(
+    [transaction_details] => Array
+        (
+            [order_id] => 683db2f3c38b0
+            [gross_amount] => 30000
+        )
+
+    [item_details] => Array
+        (
+            [0] => Array
+                (
+                    [id] => 1
+                    [name] => kopi ireng
+                    [img] => kopi1.jpg
+                    [price] => 10000
+                    [desc] => Kopi hitam pekat dengan rasa kuat dan pahit yang khas.
+                    [quantity] => 3
+                    [total] => 30000
+                )
+
+        )
+
+    [customer_details] => Array
+        (
+            [first_name] => Dicky Yahya
+            [email] => bmotor169@gmail.com
+            [phone] => 0895379692638
+        )
+
+)
+
+POST: Array
+(
+    [items] => [{"id":1,"name":"kopi ireng","img":"kopi1.jpg","price":10000,"desc":"Kopi hitam pekat dengan rasa kuat dan pahit yang khas.","quantity":3,"total":30000}]
+    [total] => 30000
+    [name] => Dicky Yahya
+    [email] => bmotor169@gmail.com
+    [phone] => 0895379692638
+)
+
+Params: Array
+(
+    [transaction_details] => Array
+        (
+            [order_id] => 683db2f403b35
+            [gross_amount] => 30000
+        )
+
+    [item_details] => Array
+        (
+            [0] => Array
+                (
+                    [id] => 1
+                    [name] => kopi ireng
+                    [img] => kopi1.jpg
+                    [price] => 10000
+                    [desc] => Kopi hitam pekat dengan rasa kuat dan pahit yang khas.
+                    [quantity] => 3
+                    [total] => 30000
+                )
+
+        )
+
+    [customer_details] => Array
+        (
+            [first_name] => Dicky Yahya
+            [email] => bmotor169@gmail.com
+            [phone] => 0895379692638
+        )
+
+)
+
+Error: CURL Error: OpenSSL SSL_connect: Connection was reset in connection to app.sandbox.midtrans.com:443 
+Error: CURL Error: OpenSSL SSL_connect: Connection was reset in connection to app.sandbox.midtrans.com:443 
+Error: CURL Error: OpenSSL SSL_connect: Connection was reset in connection to app.sandbox.midtrans.com:443 
+Error: CURL Error: OpenSSL SSL_connect: Connection was reset in connection to app.sandbox.midtrans.com:443 
+Error: CURL Error: OpenSSL SSL_connect: Connection was reset in connection to app.sandbox.midtrans.com:443 
